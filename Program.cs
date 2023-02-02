@@ -1,4 +1,4 @@
-﻿using System.Drawing;
+using System.Drawing;
 
 namespace ConsoleApp1
 {
@@ -63,6 +63,8 @@ namespace ConsoleApp1
                 Console.WriteLine();
 
             }
+            Console.WriteLine("Ruudu ümbermõõt on: " + perimeter);
+            Console.WriteLine("Ruudu pindala on: " + area);
         }
             private static void Ristkülik()
             {
@@ -84,7 +86,9 @@ namespace ConsoleApp1
                     }
                     Console.WriteLine();
                 }
-            }
+            Console.WriteLine("Risküliku ümbermõõt on: " + perimeter);
+            Console.WriteLine("Risküliku pindala on: " + area);
+        }
 
 
         private static void Kolmnurk()
@@ -112,6 +116,8 @@ namespace ConsoleApp1
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine("Kolmnurga ümbermõõt on: " + perimeter);
+            Console.WriteLine("Kolmnurga pindala on: " + area);
         }
 
         private static void Teemant()
@@ -140,6 +146,8 @@ namespace ConsoleApp1
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine("Teemanti ümbermõõt on: " + perimeter);
+            Console.WriteLine("Teemati pindala on: " + area);
 
         }
     }
